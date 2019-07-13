@@ -46,3 +46,9 @@ Sistema para gestão de grupos de investimento, que visam maiores benefícios do
 * Configure o arquivo <code>.env</code>
 * Crie DB com o nome indicado no arquivo <code>.env</code>
 * Execute o comando <code>$ php artisan migrate --seed</code>
+
+<br>
+
+###### Ao executar o projeto, caso ocorrra um erro relacionado a "supported ciphers":
+* Execute o comando <code>$ php artisan key:generate</code>
+* E limpe o cache, com <code>$ php artisan config:clear</code>
