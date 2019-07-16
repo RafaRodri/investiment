@@ -42,7 +42,7 @@ Sistema para gestão de grupos de investimento, que visam maiores benefícios do
 
 
 ## Passo a Passo
-* Execute o comando <code>$ composer.install</code>
+* Execute o comando <code>$ composer install</code>
 * Configure o arquivo <code>.env</code>
 * Crie DB com o nome indicado no arquivo <code>.env</code>
 * Execute o comando <code>$ php artisan migrate --seed</code>
